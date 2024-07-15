@@ -1,0 +1,122 @@
+.courses_section{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.courses_title{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4154F1;
+}
+.main_heading{
+    text-align: center;
+    font-size: 2rem;
+    color: #012970;
+}
+.card_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding-top: 100px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+.card_container .project_card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.color1{
+    background-color: #2DB6FA;
+}
+.color2{
+    background-color: #F68C09;
+}
+.color3{
+    background-color: #08DA4E;
+}
+.color4{
+    background-color: #E9222C;
+}
+.color5{
+    background-color: #B50EDF;
+}
+.color6{
+    background-color: #F51F9C;
+}
+.color7{
+    background-color: #198754;
+}
+.card_container .project_card:hover{
+    height: 400px;
+}
+.card_container .project_card .card_img{
+    top: 20px;
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    border-radius: 12px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.card_container .project_card:hover .card_img{
+    top: -90px;
+    scale: 0.75;
+}
+.card_container .project_card .card_img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.card_container .project_card .card_content{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    transition: 0.5s;
+    color: white;
+}
+.card_container .project_card:hover .card_content{
+    height: 400px;
+    top: 110px;
+}
+.card_container .project_card:hover .card_content h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.card_container .project_card:hover .card_content p{
+    text-align: justify;
+}
+.card_container .project_card:hover .card_content a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_content img{
+    width: 15%;
+}

@@ -1,0 +1,106 @@
+.intro_secion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    background-image: url(https://www.expertizo.pk/assets/img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro_text_div {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 80px; */
+    justify-content: center;
+    flex-direction: column;
+    padding:2rem; 
+    width:50% ;
+    /* height: 500px;  */
+    text-align: center;
+   /* overflow: auto; */
+    /* background-color: brown; */
+}
+
+/* .intro_name_div{
+    width: 100%;
+    height: 200px;
+    background-color: #7B7B7B;
+} */
+.intro_name {
+    color: #012970;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* .intro_para_div{
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+} */
+.intro_para {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #7B7B7B;
+    text-align: justify;
+}
+
+.intro_btn_div{
+    width: 100%;
+}
+.trial_btn {
+    background-color: #4154F1;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin: 1.5rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.trial_btn:hover {
+    transform: scale(1.1);
+}
+.anchor_tag {
+    width: 140px;
+}
+
+.intro_img_div {
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: bisque; */
+}
+
+.bg {
+    max-width: 100%;
+    max-height: 100%;
+    /* object-fit: contain; */
+}
+
+
+
+@media screen and (max-width: 1010px ) {
+    .intro_secion{
+        flex-direction: column;
+    }
+    .intro_text_div, .intro_img_div{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro_secion{
+        background-attachment: fixed;
+    }
+    
+}
