@@ -16,7 +16,7 @@ function Plains() {
                         "Comprehensive Quranic instruction over 2 days.",
                         "Individualized attention, covering recitation and basic understanding.",
                         "Flexible scheduling for busy learners.",
-                        "Cost-effective at $40."
+                        "Cost-effective at $50."
                     ]}
                 />
                 <FlipCard
@@ -28,7 +28,7 @@ function Plains() {
                         "Detailed guidance on Tajweed and Tafsir.",
                         "Interactive sessions for enhanced comprehension.",
                         "Support for practice and doubt clarification.",
-                        "Great value at $50."
+                        "Great value at $40."
                     ]}
                 />
                 <FlipCard
@@ -39,7 +39,7 @@ function Plains() {
                         "Intensive 5-day Quranic immersion.",
                         "In-depth study of verses, meanings, and context.",
                         "Advanced Tajweed training and personalized feedback.",
-                        "Best option for comprehensive education at $55."
+                        "Best option for comprehensive education at $30."
                     ]}
                 />
             </div>

@@ -107,9 +107,11 @@
 .card_container .project_card:hover .card_content h2{
     font-size: 1.6rem;
     font-weight: 700;
+    
 }
 .card_container .project_card:hover .card_content p{
     text-align: justify;
+    color: white;
 }
 .card_container .project_card:hover .card_content a{
     position: relative;

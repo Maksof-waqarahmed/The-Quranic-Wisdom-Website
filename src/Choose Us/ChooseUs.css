@@ -1,4 +1,4 @@
-.chooseUs_section {
+.chooseUs_section1 {
     width: 100%;
     height: auto;
     display: flex;
@@ -7,21 +7,21 @@
     margin-bottom: 50px;
 }
 
-.choose_title {
+.choose_title1 {
     font-size: 1rem;
     text-align: center;
     margin-bottom: 20px;
     color: #4154F1;
 }
 
-.choose_heading {
+.choose_heading1 {
     text-align: center;
     font-size: 2rem;
     color: #012970;
     margin-bottom: 30px;
 }
 
-.card_container_chooseUs {
+.card_container_chooseUs1 {
     max-width: 65rem;
     margin: auto;
     display: flex;
@@ -33,7 +33,7 @@
     flex-wrap: wrap;
 }
 
-.card_choose {
+.card_choose1 {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -48,64 +48,65 @@
     box-sizing: border-box;
 }
 
-.icon_choose {
+.icon_choose1 {
     width: 100px;
     height: 100px;
 }
 
-.chooseImg {
+.chooseImg1 {
     max-width: 100%;
     max-height: 100%;
 }
 
-.heading_card_choose {
+.heading_card_choose1 {
     margin: 0;
     font-size: 24px;
     color: #012970;
 }
 
-.para_card_choose {
+.para_card_choose1 {
     margin: 10px 0 0;
     font-size: 16px;
     color: #4154F1;
+    
 }
 
 /* Responsive design */
 @media (max-width: 1200px) {
-    .card_choose {
+    .card_choose1 {
         flex: 1 1 calc(50% - 40px);
     }
 }
 
 @media (max-width: 768px) {
-    .card_choose {
+    .card_choose1 {
         flex: 1 1 calc(100% - 40px);
     }
 
-    .choose_heading {
+    .choose_heading1 {
         font-size: 1.5rem;
     }
 }
 
 @media (max-width: 480px) {
-    .choose_title {
+    .choose_title1 {
         font-size: 0.8rem;
     }
 
-    .choose_heading {
+    .choose_heading1 {
         font-size: 1.2rem;
     }
 
-    .heading_card_choose {
+    .heading_card_choose1 {
         font-size: 20px;
     }
 
-    .para_card_choose {
+    .para_card_choose1 {
         font-size: 14px;
     }
 }
 
-.institute_overView_Div {
+.institute_overView_Div1 {
     width: 100%;
     min-height: 100vh;
     background-image: url(https://t4.ftcdn.net/jpg/06/49/34/87/360_F_649348767_hH3JYpuXvrDbH8DpsPGlOBMUcw7StR8B.jpg);
@@ -120,7 +121,7 @@
     text-align: center;
 }
 
-.classes_div_institute {
+.classes_div_institute1 {
     width: 100%;
     max-width: 1200px;
     padding: 20px;
@@ -134,7 +135,7 @@
     flex-direction: column;
 }
 
-.class_multiple_divs {
+.class_multiple_divs1 {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -142,7 +143,7 @@
     margin-top: 20px;
 }
 
-.class_div {
+.class_div1 {
     width: 150px;
     height: 150px;
     background: rgba(0, 0, 0, 0.3); 
@@ -155,39 +156,40 @@
     padding: 10px;
 }
 
-.class_div h3 {
+.class_div1 h3 {
     font-size: 30px;
     margin: 0;
 }
 
-.class_div p {
+.class_div1 p {
     margin: 0;
     font-size: 16px;
+    color: white;
 }
 
 /* Responsive design */
 @media (max-width: 1200px) {
-    .classes_div_institute {
+    .classes_div_institute1 {
         padding: 10px;
     }
 }
 
 @media (max-width: 768px) {
-    .class_div {
+    .class_div1 {
         width: calc(50% - 20px);
     }
 }
 
 @media (max-width: 480px) {
-    .class_div {
+    .class_div1 {
         width: calc(100% - 20px);
     }
 
-    .class_div h3 {
+    .class_div1 h3 {
         font-size: 24px;
     }
 
-    .class_div p {
+    .class_div1 p {
         font-size: 14px;
     }
 }

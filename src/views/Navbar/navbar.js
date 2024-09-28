@@ -2,7 +2,7 @@ import './navbar.css'
 import { useState } from 'react'
 import { Link } from 'react-scroll'
 
-import logo from '../../Assesst/mian logo.png'
+import logo from '../../Assesst/logo2.png'
 import hamburder from '../../Assesst/hamburger.png'
 export function Navbar() {
 

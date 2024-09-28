@@ -1,8 +1,7 @@
-.navbar{
+/* Navbar styling */
+.navbar {
     height: 5rem;
     width: 100%;
-    /* max-width: 75rem; */
-    /* margin: 0 auto; */
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -10,68 +9,61 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    /* background-color: rgb(30, 30, 30) */
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.navbar_logo{
+
+/* Logo styling */
+.navbar_logo {
     height: 4rem;
-    width: 15rem;
-    /* background-color: blue; */
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: cover;
-
-}
-.logo{
-    /* height: 3rem; */
-    width: 100%;
-    height: 100%;
 }
 
-.desktop_menu{
-    height: 4rem;
-    /* background-color: blue; */
+.logo {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Desktop menu */
+.desktop_menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 600px;
-    /* background-color: aqua; */
 }
-.desktopMenuListItem{
-    color: white;
+
+.desktopMenuListItem {
     font-size: 17px;
     font-weight: 500;
-    cursor: pointer;
     color: #26509A;
-    /* font-family: 'Times New Roman', Times, serif; */
-    transition: 1s;
+    cursor: pointer;
+    transition: 0.3s;
 }
-.desktopMenuListItem:hover{
+
+.desktopMenuListItem:hover, .active {
     color: #4154F1;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid #4154F1;
 }
-.desktop_menu_btn_div{
-    height: 4rem;
+
+/* Contact button */
+.desktop_menu_btn_div {
     display: flex;
     align-items: center;
-    /* background-color: black; */
-    /* width: 300px; */
-    /* cursor: pointer; */
-    /* margin-right: 60px; */
 }
-.desktop_menu_btn{
+
+.desktop_menu_btn {
     height: 40px;
     width: 170px;
     border-radius: 2rem;
-    outline: none;
     border: none;
     font-size: 16px;
     background-color: #26509A;
     color: white;
-    /* padding: 0 1.5rem; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,31 +71,20 @@
     transition: 0.5s;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
-.desktop_menu_btn:hover{
+
+.desktop_menu_btn:hover {
     background-color: #4154F1;
 }
-.desktop_menu_img{
-    object-fit: cover;
-    height: 1.5rem;
-    width: 1rem;
-    /* margin: 1rem; */
-    margin-left: 10px;
-    color: rgb(0, 0, 0);
-    /* background-color: white; */
-    color: white;
-}
-.active{
-    color: #4154F1;
-    border-bottom: 2px solid #4154F1;
-    padding-bottom: 0.3rem;
-}
-.mobile_menu{
-    /* width: 4%; */
+
+/* Mobile menu */
+.mobile_menu {
     display: none;
     object-fit: cover;
     height: 2.5rem;
+    cursor: pointer;
 }
-.nav_menu{
+
+.nav_menu {
     position: absolute;
     top: 4rem;
     right: 2rem;
@@ -111,37 +92,40 @@
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
-    height: fit-content;
     min-width: 15rem;
-    /* background-color: rgb(40, 40, 40); */
     background-color: white;
     border-radius: 1rem;
-}
-.list_item{
-    color: white;
-    padding: 0.5rem 3rem;
-    margin: 0.25rem;
-    /* background-color: rgb(30, 30, 30); */
-    background-color: #4154F1;
-}
-.list_item.active{
-    /* color: #4154F1; */
-    border-bottom: 3px solid black;
-    padding-bottom: 0.3rem;
-    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.list_item {
+    color: #4154F1;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem 0;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.list_item:hover {
+    background-color: #26509A;
+    color: white;
+}
+
+.list_item.active {
+    border-bottom: 2px solid #4154F1;
+}
+
+/* Responsive styling */
 @media screen and (max-width: 940px) {
-    .mobile_menu{
-        display: flex;
+    .mobile_menu {
+        display: block;
     }
-    .desktop_menu{
+    .desktop_menu, .desktop_menu_btn_div {
         display: none;
     }
-    .desktop_menu_btn_div{
-        display: none;
-    }
-    .navbar{
-        width: 100%;
+    .navbar_logo {
+        width: 10rem;
+        height: 3rem;
     }
 }
